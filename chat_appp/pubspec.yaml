@@ -1,0 +1,47 @@
+name: chat_app
+description: "A new Flutter project."
+publish_to: 'none'  # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  # Firebase dependencies
+  firebase_core: ^2.20.0  # Latest stable version of Firebase Core
+  firebase_auth: ^5.2.0  # Firebase Authentication
+  cloud_firestore: ^5.4.0  # Cloud Firestore
+
+  # Other dependencies
+  another_flushbar: ^1.12.30  # For showing custom notifications
+  modal_progress_hud_nsn: ^0.5.1  # For displaying loading indicators
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0  # Recommended lints for better code quality
+
+flutter:
+  uses-material-design: true
+
+  # Assets and images (modify if you have your own assets)
+  assets:
+    - assets/images/
+
+  # Fonts (if you are using custom fonts, you can add them here)
+  # fonts:
+  #   - family: Pacifico
+  #     fonts:
+  #       - asset: assets/fonts/Pacifico-Regular.ttf
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: assets/fonts/TrajanPro.ttf
+  #       - asset: assets/fonts/TrajanPro_Bold.ttf
+  #         weight: 700
